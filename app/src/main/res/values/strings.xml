@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prova 1</string>
+    <string name="contagemTxtVw">Contagem:</string>
+    <string name="displayEdTxt">0</string>
+    <string name="incrementar">+1</string>
+    <string name="decrementar">-1</string>
+    <string name="zerar">ZERAR CONTAGEM</string>
+</resources>
