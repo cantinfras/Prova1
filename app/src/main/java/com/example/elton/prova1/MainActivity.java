@@ -1,6 +1,7 @@
 package com.example.elton.prova1;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -20,15 +21,18 @@ public class MainActivity extends Activity {
     public void incrementar(View view) {
         contador = contador + 1;
         displayEdTxt.setText(String.valueOf(contador));
+        displayEdTxt.setBackgroundColor(Color.BLUE);
     }
 
     public void decrementar(View view) {
         contador = contador - 1;
         displayEdTxt.setText(String.valueOf(contador));
+        displayEdTxt.setBackgroundColor(Color.RED);
     }
 
     public void zerarContador(View view) {
         contador = 0;
         displayEdTxt.setText(String.valueOf(contador));
+        displayEdTxt.setBackgroundColor(Color.GREEN);
     }
 }
